@@ -1,0 +1,15 @@
+cors:
+  configuration:
+    allowed:
+      origins: '*'
+      methods: GET, POST
+
+server:
+  port: 8100
+
+spring:
+  security:
+    user:
+      name: user
+      password: password
+
